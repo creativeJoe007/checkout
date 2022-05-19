@@ -1,0 +1,33 @@
+.comment_box_container {
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.comment_box_container .heading {
+    font-size: 1rem;
+    color: #252525;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.comment_box_container .form_container {
+    padding: 20px 0px;
+}
+
+.comment_box_container .form_container .text-field {
+    margin: 0px 10px;
+}
+
+.comment_box_container .form_container .rating_box {
+    padding-bottom: 20px;
+}
+
+.comment_box_container .form_container .submit_btn {
+    margin-top: 10px;
+    width: 100%;
+    background-color: black;
+}
+
+.margin_top_10 {
+    margin-top: 10px;
+}

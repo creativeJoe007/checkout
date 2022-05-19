@@ -1,0 +1,32 @@
+.rating_details_card .rating_details_liner {
+    /* justify-content: space-between; */
+    margin-top: 5px;
+}
+
+.spacing_4 {
+    padding: 0px 4px;
+}
+
+.spacing_05 {
+    padding: 0px 0.5px;
+}
+
+.spacing_6 {
+    padding: 0px 12px;
+}
+
+.bar_container {
+    background-color: #bdbdbd;
+    width: 100%;
+    height: 15px;
+    border-radius: 15px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.bar {
+    background-color: #f9a825;
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+}

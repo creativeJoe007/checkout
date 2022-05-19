@@ -1,0 +1,40 @@
+.comment_container {
+    border-bottom: 1px solid #f0f0f0;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.profile .avatar {
+    padding-right: 10px;
+}
+
+.profile .name {
+    font-size: 0.9rem;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 480;
+    text-transform: capitalize;
+}
+
+.profile .time {
+    margin-left: 10px;
+    font-size: 10px;
+    color: #444;
+    font-weight: 400;
+}
+
+.comment_text {
+    padding-top: 10px;
+    justify-content: left;
+    padding-left: 10px;
+    /* text-transform: capitalize; */
+}
+
+.comment_text span {
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+}

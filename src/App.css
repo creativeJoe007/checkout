@@ -1,0 +1,24 @@
+.container {
+  background-color: white;
+  border-radius: 6px 6px 3px 3px;
+  /* margin-top: 10px; */
+}
+.header {
+  border-bottom-color: #d1d1d1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding: 15px 40px;
+}
+.testimonial-heading{
+  align-items: left;
+}
+
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 450;
+  /* text-transform: uppercase; */
+}
+
