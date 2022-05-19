@@ -1,2 +1,0 @@
-# EduMe
- Take Home Project
