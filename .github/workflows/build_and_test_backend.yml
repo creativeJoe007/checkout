@@ -18,5 +18,6 @@ jobs:
       - name: Setup backend test
         run: |
           cd server
+          npm install jest
           npm install --save-dev
           npm run test
