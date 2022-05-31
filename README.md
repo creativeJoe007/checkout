@@ -34,3 +34,6 @@ Download JEST and run `npm test`
 1. Write test cases for testing the front-end
 2. Added more test to get 100% test coverage on my backend (currently stands at 96.42%)
 
+#### Do note:
+1. Run npm install on folder level for both the front and backend.
+2. I used Material UI for the design
