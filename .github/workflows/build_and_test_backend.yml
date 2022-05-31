@@ -10,8 +10,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    -name: Install NPM packages
-    run: npm install --save-dev
+    steps:
+      -name: Install NPM packages
+      run: npm install --save-dev
 
-    -name: Run test script
-    run: npm run test
+      -name: Run test script
+      run: npm run test
