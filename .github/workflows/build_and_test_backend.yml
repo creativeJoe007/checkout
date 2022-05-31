@@ -1,0 +1,17 @@
+name: Build and Test
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    -name: Install NPM packages
+    run: npm install --save-dev
+
+    -name: Run test script
+    run: npm run test
