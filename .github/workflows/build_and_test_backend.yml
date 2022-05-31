@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: 14
       - name: Setup backend test
+        env:
+          MONGO_URL: mongodb+srv://clippy:PyMKjByTN_g9dMS@cluster0.ovbn3.mongodb.net/Checkout?retryWrites=false&w=majority
         run: |
           cd server
           npm install jest
