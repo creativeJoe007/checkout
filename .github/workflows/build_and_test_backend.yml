@@ -15,9 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
-      - name: Navigate to backend folder
-        run: cd server
-      - name: Install NPM packages
-        run: npm install --save-dev
-      - name: Run test script
-        run: npm run test
+      - name: Setup backend test
+        run: |
+          cd server
+          npm install --save-dev
+          npm run test
